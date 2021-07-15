@@ -1,0 +1,108 @@
+{
+   "cam_device": {
+      "deviceType" : 1,
+      "videoPath" :"../data/large_armor/Blue_1.avi",
+      "picturePath" :"./pic/blue",
+         "picNum": 27,
+      "HIK_CAM": "none",
+      "DAHEN_CAM": "none"
+   },
+   "serialPort_dev": {
+      "enable": 1,
+      "deviceName": "/dev/ttyUSB0"
+   },
+   "cam_param": {
+      "fx":1273.6,"fy":1273.5,"u0":636.9,"v0":512.9,
+      "k1":-0.2337,"k2":0.2071,"p1":0,"p2":0,"k3":0
+   },
+   "robot_param": {
+      "gimbal_cam":
+	 {"dx":0,"dy": 0,"dz": 0}
+   },
+   "lightBar_param": {
+      "thresh": 60,
+      "color": "red",
+      "lengthWidthRadio": {
+         "enable": 1,
+         "best": 2.5,
+         "min": 1.0,
+         "max": 10,
+         "left_ceo": 0.81,
+         "right_ceo": 1
+      },
+      "angle": {
+         "enable": 1,
+         "best": 0,
+         "min": -25,
+         "max": 25,
+         "left_ceo": 0.7,
+         "right_ceo": 0.7
+      },
+      "area": {
+         "enable": 1,
+         "best": 800,
+         "min": 20,
+         "max": 2000,
+         "left_ceo": 1,
+         "right_ceo": 1
+      },
+      "distance": {
+         "enable": 1,
+         "best": 0,
+         "min": -1,
+         "max": 2048,
+         "left_ceo": -0.2,
+         "right_ceo": -0.2
+      }
+   },
+   "armor_param": {
+      "lengthWidthRadio": {
+         "enable": 1,
+         "best": 4.4,
+         "min": 2.5,
+         "max": 6,
+         "left_ceo": 0,
+         "right_ceo": 0
+      },
+      "lightBarRadio": {
+         "enable": 1,
+         "best": 1,
+         "min": 0,
+         "max": 2,
+         "left_ceo": 0.2,
+         "right_ceo": -1
+      },
+      "angle": {
+         "enable": 1,
+         "best": 0,
+         "min": -20,
+         "max": 20,
+         "left_ceo": 1,
+         "right_ceo": 1
+      },
+      "area": {
+         "enable": 1,
+         "best": 20000,
+         "min": 1000,
+         "max": 50000,
+         "left_ceo": 1,
+         "right_ceo": -1
+      },
+      "parallelism": {
+         "enable": 1,
+         "best": 0,
+         "min": -10,
+         "max": 10,
+         "left_ceo": 1,
+         "right_ceo": 1
+      },
+      "lastCenter": {
+         "enable": 1,
+         "best": 0,
+         "min": -500,
+         "max": 500,
+         "left_ceo": 1,
+         "right_ceo": 1
+      }
+   }
+}

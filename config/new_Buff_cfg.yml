@@ -1,0 +1,14 @@
+%YAML:1.0
+---
+color_thresh_blue:80
+color_thresh_red:40
+element_size:3
+armor_pts_min:30 #30 30
+armor_pts_max:80 #80 300
+far_armor_min:50 #50 100
+far_armor_max:100 #100 600
+useroi:1
+u0:641.27
+v0:509.1
+f:1268
+
