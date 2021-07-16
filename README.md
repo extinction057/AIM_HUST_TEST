@@ -1,1 +1,2 @@
-AIM_HUST_TEST
+# armor
+RM-armorDetector

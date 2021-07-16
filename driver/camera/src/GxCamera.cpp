@@ -260,13 +260,13 @@ namespace ly {
 //        GX_VERIFY(status);
 //        status = GXSetInt(g_hDevice, GX_INT_HEIGHT, 64);
 //        GX_VERIFY(status);
-        status = GXSetInt(g_hDevice, GX_INT_OFFSET_X, roi.m_i64OffsetX);
-        GX_VERIFY(status);
-        status = GXSetInt(g_hDevice, GX_INT_OFFSET_Y, roi.m_i64OffsetY);
-        GX_VERIFY(status);
         status = GXSetInt(g_hDevice, GX_INT_WIDTH, roi.m_i64Width);
         GX_VERIFY(status);
         status = GXSetInt(g_hDevice, GX_INT_HEIGHT, roi.m_i64Height);
+        GX_VERIFY(status);
+        status = GXSetInt(g_hDevice, GX_INT_OFFSET_X, roi.m_i64OffsetX);
+        GX_VERIFY(status);
+        status = GXSetInt(g_hDevice, GX_INT_OFFSET_Y, roi.m_i64OffsetY);
         GX_VERIFY(status);
     }
 

@@ -150,6 +150,12 @@ namespace ly
             return -1;
         }
     }
+    /*!
+     * @brief 用来构造打分函数的公式,利用两个点和曲率构造圆弧
+     * @param middle 最优值
+     * @param aside 最值
+     * @Ceo 圆弧曲率
+     */
     void score::calFunction(circle& C,double middle, double aside, double Ceo)
     {
         double a = aside-middle;
